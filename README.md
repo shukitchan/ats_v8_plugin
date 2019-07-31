@@ -6,4 +6,4 @@ ATS V8 Plugin
  - Copy v8.so to /usr/local/libexec/trafficserver/
  - Copy test.js in this repo to /usr/local/var/js/
  - Add remap rules to /usr/local/etc/trafficserver/remap.config to use the plugin. Pass in the test.js as parameter. 
- - E.g. map http://test.com/ http://httpbin.org/ @plugin=v8.so @pparam=/usr/local/var/js/testtest.js 
+ - E.g. map http://test.com/ http://httpbin.org/ @plugin=v8.so @pparam=/usr/local/var/js/test.js 
